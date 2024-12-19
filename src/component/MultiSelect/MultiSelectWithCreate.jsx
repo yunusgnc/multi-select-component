@@ -24,7 +24,7 @@ const MultiSelectWithCreate = ({ options }) => {
         setSelectedOptions(allOptions);
       }
     },
-    [allOptions] // Bu bağımlılığı ekliyoruz
+    [allOptions]
   );
 
   useEffect(() => {
